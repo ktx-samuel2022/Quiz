@@ -2,7 +2,14 @@ body{
 	background: rgb(153, 255, 179);
 }
 
-.login{
+.login1{
+	background: rgb(255, 230, 0);
+	margin-top: 20px;
+	padding: 20px 50px;
+	float: none;
+	border-radius: 15px;
+}
+.login2{
 	background: rgb(255, 230, 0);
 	margin-top: 20px;
 	padding: 20px 50px;
