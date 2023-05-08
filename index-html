@@ -17,11 +17,11 @@
 		
 		<h1 class="header"> LOGIN</h1>
 		<br>
-		<div id="login">
+		<div id="login1">
 			<h3>Jogador 1 : Digite seu nome  para logar</h3>
 			<input class="form-control" id="inputNome1">
 		</div>
-		<div id="login">	
+		<div id="login2">	
 			<h3>Jogador 2:  Digite seu nome  para logar</h3>
 			<input class="form-control" id="inputNome2">
 		</div>
