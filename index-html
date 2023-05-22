@@ -18,7 +18,7 @@
 
     <div class="container">
         <center>
-            <h2 stye="color:white;" class="btn btn-primary">Quiz de Matemática!</h2>
+            <h1 stye="color:white;" class="btn btn-primary">Quiz de Matemática!</h1>
             <div id="output" class="col-lg-6"></div>
         </center>
     </div>
