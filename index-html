@@ -1,35 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Quiz de matemática</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
 <link rel="stylesheet" type="text/css" href="stye.css">
-
+    <title>Jogo:Quiz de Matemática</title>
 </head>
 <body>
-	<center>
-	<div class="container">
-		
-		<h1 class="header"> LOGIN</h1>
-		<br>
-		<div id="login1">
-			<h3>Jogador 1 : Digite seu nome  para logar</h3>
-			<input class="form-control" id="inputNome1">
-		</div>
-		<div id="login2">	
-			<h3>Jogador 2:  Digite seu nome  para logar</h3>
-			<input class="form-control" id="inputNome2">
-		</div>
-		<button id="logar" onclick='add()' class="btn-primary">LOGIN</button>
-	
-	</div>
+    <h4 id="player1_name"></h4> <span id="player1_score">:0</span>
+    <br>
+    <h4 id="player2_name"></h4> <span id="player2_score"></span>
 
-	<script src="main.js"></script>
-</center>
+    <div class="container">
+        <center>
+            <h4 stye="color:white;" class="btn btn-primary">Quiz de Matemática!</h4>
+            <div id="output" class="col-lg-6"></div>
+        </center>
+    </div>
+    <div id="pergunta"><center>
+        <h3>Número 1</h3>
+        <input type="number" id="n1">
+        <h3>Número 2</h3>
+        <input type="number" id="n2">
+    </center></div>
+
+
+
+
+    <script src="main.js"></script>
+
 </body>
 </html>
